@@ -6,13 +6,14 @@ This repo contains serveral python scripts and a Jupyter notebook to scrape publ
 Each ipynb file contains the script for crawling the corresponding section. The csv files contain the scraped publication data.
 
 There are four sections in total:
-HKIAPS Publications: crawl_hkiaps-publications.ipynb ; hkiaps-publications/hkiaps-publications.csv
 
-SRC Publications: crawl_src-publications.ipynb ; src-publications/hkiaps_src_publications.csv
+1. HKIAPS Publications: crawl_hkiaps-publications.ipynb ; hkiaps-publications/hkiaps-publications.csv
 
-CCAS Publications: crawl_ccas-publications.ipynb ; ccas-publications/hkiaps_ccas_publications.csv
+2. SRC Publications: crawl_src-publications.ipynb ; src-publications/hkiaps_src_publications.csv
 
-CHKS Publications: crawl_chks-publications.ipynb ; chks-publications/hkiaps_chks_publications.csv
+3. CCAS Publications: crawl_ccas-publications.ipynb ; ccas-publications/hkiaps_ccas_publications.csv
+
+4. CHKS Publications: crawl_chks-publications.ipynb ; chks-publications/hkiaps_chks_publications.csv
 
 # Data table
 Each csv file contains the following columns:
