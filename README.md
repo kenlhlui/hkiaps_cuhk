@@ -24,3 +24,15 @@ Each csv file contains the following columns:
 - toc_pdf: URL to the table of contents PDF (only in hkiaps-publications)
 - abstract_url: URL to the abstract (only in hkiaps-publications)
 - image_url: URL to the image (only in hkiaps-publications)
+
+# Running the scripts
+This repo uses [uv](https://docs.astral.sh/uv/) to manage the virtual environment. To run the scripts, first install uv and create the virtual environment by running:
+```bash
+uv sync
+```
+or run the following if you don't have uv installed:
+```bash
+  pip install -e .
+```
+
+Then open the desired Jupyter notebook and run the cells to scrape the data.
